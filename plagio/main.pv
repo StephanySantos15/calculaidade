@@ -1,0 +1,19 @@
+fron difllib import sequenceMatcher
+
+
+t1 = ' '
+t2 = ' '
+
+with open('text.1') as arq1:
+     t1=arq1.read()
+
+ with open('text.2') as arq2:
+     t1=arq2.read() 
+
+
+     similaridade =sequenceMatcher(nome, t1,t2).ratio()
+
+     print(f'Os textos tem similaridade de {similaridade}%')
+
+
+    
